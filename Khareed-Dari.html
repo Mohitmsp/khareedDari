@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khareed-Dari</title>
+    <style>
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333333;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .logo {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .menu li a {
+            color:#007bff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .search-bar input[type="text"] {
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .search-bar button {
+            padding: 8px 15px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .search-bar button:hover {
+            background-color: #0056b3;
+        }
+
+        main {
+            padding: 20px 0;
+        }
+
+        .featured-products {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .featured-products h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .product-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .footer-menu ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-menu li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .footer-menu li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .social-icons a {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+        <center>  <h1 class="logo">Khareed-Dari</h1>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Account</a></li>
+            </ul>
+        </center> 
+            <div class="search-bar">
+                <input type="text" placeholder="Search products...">
+                <button>Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+        <div class="container">
+            <!-- Featured Products Section -->
+            <section class="featured-products">
+                <h2>Featured Products</h2>
+                <!-- Product Grid -->
+                <div class="product-grid">
+                    <!-- Product Card -->
+                    <div class="product-card">
+                        <img src="product1.jpeg" alt="Product 1">
+                        <h3>Scooty</h3>
+                        <p class="price">$19.99</p>
+                        <button>Add to Cart</button>
+                    </div >
+                    <div class="product-card">
+                    <!-- Repeat product cards for other featured products -->
+                    <img src="product2.png" alt="Product 2" width="150px" height="210px">
+                    <h3>mamaearth</h3>
+                    <p class="price">$5.00</p>
+                    <button>Add to Cart</button>
+                </div>
+             <div class="product-card">
+                <img src="product3.png" alt="Product 3" width="250px" height="200px">
+                <h3>Study Table</h3>
+                <p class="price">$16.00</p>
+                <button>Add to Cart</button>
+            </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="social-icons">
+                <a href="#"><img src="facebook_icon_130940.png"  alt="Facebook" width="20px" height="20px"></a>
+                <a href="#"><img src="twitter.png" alt="Twitter" width="20px" height="20px"></a>
+                <a href="#"><img src="Instagram-Icon.png" alt="Instagram" width="20px" height="20px"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
